@@ -12,7 +12,7 @@ const profile = {
   canUse: {
     frontend: ["HTML", "CSS", "JavaScript", "React", "jQuery"],
     backend: ["Ruby on Rails", "Go"],
-    infra: ["VPC", "IAM", "S3", "EC2", "ELB", "ECS + Fargate"],
+    infra: ["Docker", "VPC", "IAM", "S3", "EC2", "ELB", "ECS + Fargate"],
   },
   products: [],
 };
