@@ -16,4 +16,5 @@ const profile = {
   },
   products: [],
 };
+console.log(profile);
 ```
