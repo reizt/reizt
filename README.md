@@ -10,9 +10,9 @@ const profile = {
     joinAs: "CTO",
   },
   canUse: {
-    frontend: ["HTML", "CSS", "JavaScript", "React", "jQuery"],
-    backend: ["Ruby on Rails", "Go"],
-    infra: ["Docker", "VPC", "IAM", "S3", "EC2", "ELB", "ECS + Fargate"],
+    frontend: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "jQuery", "WordPress"],
+    backend: ["Ruby on Rails", "Go", "PHP"],
+    infra: ["Docker", "AWS", "Terraform"],
   },
   products: [],
 };
