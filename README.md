@@ -7,7 +7,7 @@
   "organization": {
     "name": "Creators Team",
     "location": "https://creators-team.com",
-    "joinsAs": "CTO"
+    "position": "CTO"
   },
   "techs": {
     "frontend": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "jQuery", "WordPress"],
