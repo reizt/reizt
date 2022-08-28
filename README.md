@@ -13,6 +13,6 @@
     "frontend": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "jQuery", "WordPress"],
     "backend": ["Ruby on Rails", "Go", "PHP"],
     "infra": ["Docker", "AWS", "Terraform"]
-  },
+  }
 }
 ```
