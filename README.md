@@ -1,19 +1,25 @@
-```javascript
-const profile = {
-  name: "Takahashi Reiju",
-  liveIn: "Japan",
-  university: "Tokyo University of Schience",
-  careerAsEngineer: "14 months",
-  organization: {
-    name: "Creators Team",
-    location: "https://creators-team.com",
-    joinAs: "CTO",
-  },
-  canUse: {
-    frontend: ["HTML", "CSS", "JavaScript", "React", "jQuery"],
-    backend: ["Ruby on Rails", "Go"],
-    infra: ["VPC", "IAM", "S3", "EC2", "ELB", "ECS + Fargate"],
-  },
-  products: [],
-};
-```
+Hello. I'm working at [Creators Team](https://creators-team.com) from June 2021.
+
+We're developing [Werp](https://werp.in), a web app of business management system.
+
+# Techs
+
+## Most used recently
+
+- TypeScript (Both front-end and back-end)
+- React (Next.js)
+- AWS managed by terraform
+  - ECS Fargate
+  - Cloudwatch logs
+  - RDS
+  - SES
+  - Commonly used services such as S3, VPC and ALB
+- Github actions
+- Tailwind CSS
+- Go
+
+## Have some experience
+
+- Ruby on Rails
+- Vue.js
+- PHP (used in WordPress)
