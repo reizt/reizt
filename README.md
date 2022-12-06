@@ -1,6 +1,6 @@
 Hello. I'm working at [Creators Team](https://creators-team.com) from June 2021.
 
-We're developing [Werp](https://werp.in), a web app of business management system.
+We're developing [Werp](https://werp.in), a business management and communication platform on the web.
 
 # Techs
 
