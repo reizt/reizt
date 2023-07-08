@@ -1,3 +1,3 @@
 ### Hi there 👋
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=reizt&theme=holi)
+![Top Langs](https://github-stats.reizt.dev/api/top-langs.svg?userName=reizt)
