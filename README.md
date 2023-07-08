@@ -1,6 +1,7 @@
 ## Hi there 👋
 
 ### Products
+
 - Portfolio Site:
   - Product: https://www.reizt.dev
   - Github: https://github.com/reizt/astro-portfolio-site
@@ -13,8 +14,8 @@
 ### Languages
 
 <a href="https://github.com/reizt#gh-light-mode-only">
-  <img class="languages light" src="https://github-stats.reizt.dev/api/top-langs.svg?userName=reizt&theme=light" width="260"/>
+  <img class="languages light" src="./top-langs.light.svg" width="260"/>
 </a>
 <a href="https://github.com/reizt#gh-dark-mode-only">
-  <img class="languages dark" src="https://github-stats.reizt.dev/api/top-langs.svg?userName=reizt&theme=dark" width="260"/>
+  <img class="languages dark" src="./top-langs.dark.svg" width="260"/>
 </a>

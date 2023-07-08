@@ -1,0 +1,27 @@
+on:
+  schedule:
+    - cron: 0 0 * * *
+  push:
+    branches:
+      - main
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: Get SVGs
+        run: |
+          curl 'https://github-stats.reizt.dev/api/top-langs.svg?userName=reizt&theme=light' > ./top-langs.light.svg
+          curl 'https://github-stats.reizt.dev/api/top-langs.svg?userName=reizt&theme=dark'  > ./top-langs.dark.svg
+      - name: Commit
+        run: |
+          if ! git diff --exit-code --quiet
+          then
+            git config --global user.name 'reizt'
+            git config --global user.email 'reizt.dev@gmail.com'
+            git add .
+            git commit -m 'Update GitHub Stats'
+            git push
+          fi
