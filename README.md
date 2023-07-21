@@ -14,8 +14,8 @@
 ### Languages
 
 <a href="https://github.com/reizt#gh-light-mode-only">
-  <img class="languages light" src="./top-langs.light.svg" width="320"/>
+  <img src="./top-langs.light.svg" width="330" class="languages light"/>
 </a>
 <a href="https://github.com/reizt#gh-dark-mode-only">
-  <img class="languages dark" src="./top-langs.dark.svg" width="320"/>
+  <img src="./top-langs.dark.svg" width="330" class="languages dark"/>
 </a>
