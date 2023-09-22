@@ -9,6 +9,7 @@
   - Product: https://todo-app.reizt.dev
   - Github: https://github.com/reizt/sveltekit-todo-app
 - Github Stats:
+  - Product: https://gh.reizt.dev/api/top-langs.svg?userName=reizt
   - Github: https://github.com/reizt/github-stats
 
 ### Languages
