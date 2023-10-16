@@ -2,8 +2,8 @@
 
 ### Products
 
-- [Portfolio Site](https://www.reizt.dev) ([Repository](https://github.com/reizt/astro-portfolio-site))
-- [SvelteKit Todo App](https://todo.reizt.dev) ([Repository](https://github.com/reizt/sveltekit-todo-app))
+- [Portfolio Site](https://www.reizt.dev) ([Repository](https://github.com/reizt/portfolio.astro))
+- [SvelteKit Todo App](https://todo.reizt.dev) ([Repository](https://github.com/reizt/todo.svelte))
 - [Github Stats](https://gh.reizt.dev/api/top-langs.svg?userName=reizt) ([Repository](https://github.com/reizt/github-stats))
 
 ### Languages
