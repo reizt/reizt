@@ -3,6 +3,7 @@
 ### Products
 
 - [Portfolio Site](https://www.reizt.dev) ([Repository](https://github.com/reizt/portfolio.astro))
+- [Tech Accel](https://tech-accel.vercel.app) ([Repository](https://github.com/reizt/tech-accel))
 - [SvelteKit Todo App](https://todo.reizt.dev) ([Repository](https://github.com/reizt/todo.svelte))
 - [Github Stats](https://gh.reizt.dev/api/top-langs.svg?userName=reizt) ([Repository](https://github.com/reizt/github-stats))
 
