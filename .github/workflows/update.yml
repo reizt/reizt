@@ -9,12 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      USERNAME: reizt
     steps:
       - uses: actions/checkout@v4
       - name: Get SVGs
         run: |
-          curl --fail 'https://gh-stats-api.reizt.dev/api/langs?username=reizt&theme=light' > ./langs.light.svg
-          curl --fail 'https://gh-stats-api.reizt.dev/api/langs?username=reizt&theme=dark'  > ./langs.dark.svg
+          curl --fail 'https://gh-stats-api.reizt.dev/api/langs?username=${{ env.USERNAME }}&theme=light' > ./langs.light.svg
+          curl --fail 'https://gh-stats-api.reizt.dev/api/langs?username=${{ env.USERNAME }}&theme=dark'  > ./langs.dark.svg
       - name: Commit
         run: |
           git remote set-url origin https://github-actions:${{ github.token }}@github.com/${{ github.repository }}
