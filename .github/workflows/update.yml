@@ -13,8 +13,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Get SVGs
         run: |
-          curl 'https://gh-stats-api.reizt.dev/api/langs?username=reizt&theme=light' > ./langs.light.svg
-          curl 'https://gh-stats-api.reizt.dev/api/langs?username=reizt&theme=dark'  > ./langs.dark.svg
+          curl --fail 'https://gh-stats-api.reizt.dev/api/langs?username=reizt&theme=light' > ./langs.light.svg
+          curl --fail 'https://gh-stats-api.reizt.dev/api/langs?username=reizt&theme=dark'  > ./langs.dark.svg
       - name: Commit
         run: |
           git remote set-url origin https://github-actions:${{ github.token }}@github.com/${{ github.repository }}
@@ -23,5 +23,5 @@ jobs:
           if (git diff --shortstat | grep '[0-9]'); then
             git add .
             git commit -m "Update language stats"
-            git push origin HEAD:${{ github.ref }}
+            git push origin main
           fi
