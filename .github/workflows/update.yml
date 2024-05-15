@@ -10,18 +10,18 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Get SVGs
         run: |
-          curl 'https://gh.reizt.dev/api/top-langs.svg?userName=reizt&theme=light' > ./top-langs.light.svg
-          curl 'https://gh.reizt.dev/api/top-langs.svg?userName=reizt&theme=dark'  > ./top-langs.dark.svg
+          curl 'https://gh-stats-api.reizt.dev/api/langs?username=reizt&theme=light' > ./langs.light.svg
+          curl 'https://gh-stats-api.reizt.dev/api/langs?username=reizt&theme=dark'  > ./langs.dark.svg
       - name: Commit
         run: |
-          if ! git diff --exit-code --quiet
-          then
-            git config --global user.name 'reizt'
-            git config --global user.email 'reizt.dev@gmail.com'
+          git remote set-url origin https://github-actions:${{ github.token }}@github.com/${{ github.repository }}
+          git config --global user.name "${{ github.actor }}"
+          git config --global user.email "${{ github.actor }}@users.noreply.github.com"
+          if (git diff --shortstat | grep '[0-9]'); then
             git add .
-            git commit -m 'Update GitHub Stats'
-            git push
+            git commit -m "Update language stats"
+            git push origin HEAD:${{ github.ref }}
           fi
