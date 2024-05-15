@@ -4,7 +4,7 @@
 
 - [Portfolio Site](https://www.reizt.dev) ([Repository](https://github.com/reizt/portfolio.astro))
 - [Tech Accel](https://tech-accel.vercel.app) ([Repository](https://github.com/reizt/tech-accel))
-- [SvelteKit Todo App](https://todo.reizt.dev) ([Repository](https://github.com/reizt/todo.svelte))
+- [SvelteKit Todo App](https://todo.reizt.dev) ([Repository](https://github.com/reizt/sveltask-app))
 - [Github Stats](https://gh.reizt.dev/api/top-langs.svg?userName=reizt) ([Repository](https://github.com/reizt/github-stats))
 
 ### Languages
