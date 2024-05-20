@@ -2,9 +2,17 @@
 
 ### Products
 
-- 🔥 Portfolio (with Astro) https://reizt.dev
-- 🐷 TODO App (with SvelteKit) https://todo.reizt.dev
-- 👾 Github Stats API (on Vercel) https://github.com/reizt/gh-stats-api
+- Sites / Web Apps
+  - 🔥 Portfolio (Astro) https://github.com/reizt/reizt.dev
+  - 🐷 TODO App (SvelteKit) https://github.com/reizt/sveltask-app
+- APIs
+  - 👾 Github Stats API https://github.com/reizt/gh-stats-api
+- Libraries
+  - 🛡️ Dynmr (RDB-like DynamoDB Wrapper) https://github.com/reizt/dynmr
+  - 🎯 RESTish RPC (Typings for REST API) https://github.com/reizt/restish-rpc
+- Tools
+  - ⚡️ TODO CLI (Go) https://github.com/reizt/todo-cli.go
+  - 🔁 VSCode px to rem (VSCode Extension) https://github.com/reizt/vscode-px-to-rem
 
 ### Languages
 
