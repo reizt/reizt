@@ -3,7 +3,7 @@
 ### Products
 
 - Sites / Web Apps
-  - 🔥 Portfolio (Astro) https://github.com/reizt/reizt.dev
+  - 🔥 Portfolio (Astro) https://github.com/reizt/reij.uno
   - 🐷 TODO App (SvelteKit) https://github.com/reizt/sveltask-app
 - APIs
   - 👾 Github Stats API https://github.com/reizt/gh-stats-api
