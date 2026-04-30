@@ -1,7 +1,7 @@
 # Hi there 👋
 
 ## Products
-### 🔥 [reij.uno](https://reij.uno)
+### 🔥 [reiju.me](https://reiju.me)
 ポートフォリオサイト
 
 Tech: Astro, Vercel
