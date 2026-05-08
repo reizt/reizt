@@ -1,4 +1,4 @@
-# Hi there 👋
+# Hi from MEDLEY, INC.
 
 https://reiju.me
 
