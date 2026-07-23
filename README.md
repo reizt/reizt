@@ -3,5 +3,8 @@
 https://reiju.me
 
 ## Languages
-<img src="https://github-stats.reiju.me/langs.light.svg#gh-light-mode-only" width="330"/>
-<img src="https://github-stats.reiju.me/langs.dark.svg#gh-dark-mode-only" width="330"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-stats.reiju.me/langs.dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-stats.reiju.me/langs.light.svg">
+  <img src="https://github-stats.reiju.me/langs.light.svg" width="330" alt="Top languages">
+</picture>
